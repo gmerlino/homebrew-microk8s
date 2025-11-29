@@ -6,7 +6,6 @@ class Microk8s < Formula
   url "https://github.com/canonical/microk8s/archive/refs/tags/installer-v2.3.4.tar.gz"
   sha256 "a0eaa9e2f52453394b3eccff7fb3330b4d8e9c633a2d86f4b7e86eb67ffde152"
 
-  depends_on :macos => :sierra
   depends_on "python"
   depends_on "kubernetes-cli"
 
